@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className=''>
 
-<div className="hero  min-h-screen text-white container  lg:container lg:mx-auto lg:py-20 lg:px-24">
+<div className="hero  min-h-screen text-white container  lg:container lg:mx-auto lg:py-20 lg:px-16">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
       src="Hero.png"

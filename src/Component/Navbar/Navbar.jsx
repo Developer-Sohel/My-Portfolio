@@ -21,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <div className='bg-slate-700 shadow-md'>
-        <div className="navbar lg:container lg:mx-auto  lg:px-24">
+        <div className="navbar lg:container lg:mx-auto  lg:px-16">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
