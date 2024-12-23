@@ -1,0 +1,10 @@
+.bg {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(178, 0, 184, 1) 0%,
+    rgba(71, 0, 159, 1) 90%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
