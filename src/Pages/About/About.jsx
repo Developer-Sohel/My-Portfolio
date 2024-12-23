@@ -6,7 +6,7 @@ export const About = () => {
   return (
 
     <div className=''>
-         <div className='contsiner lg:container lg:mx-auto lg:py-20 py-6'>
+         <div className='container  lg:container lg:mx-auto  lg:px-24'>
             <div className='grid grid-cols-1 lg:grid-cols-2 px-2 py-2 gap-4 items-center'>
                 {/* img-section */}
                 <div>
@@ -24,9 +24,6 @@ export const About = () => {
                     <button className="btn btn-outline btn-success">Project</button>
                     </div>
                 </div>
-
-               
-                
             </div>
             <Skill/>
     </div>

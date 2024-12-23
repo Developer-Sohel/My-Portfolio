@@ -10,7 +10,7 @@ export const Navbar = () => {
     const navItems=[
         <Link to='/'><li className="text-slate-300 text-base mr-8 active effact ">Home</li></Link>,
         <Link to='/About'><li className="text-slate-300 text-base mr-8 effact">About</li></Link>,
-        <Link to='/Services'><li className="text-slate-300 text-base mr-8 effact">Services</li></Link>,
+        <Link to='/#Services'><li className="text-slate-300 text-base mr-8 effact">Services</li></Link>,
         <Link to='/Project'><li className="text-slate-300 text-base mr-8 effact">Project</li></Link>,
         <Link to='/Blog'><li className="text-slate-300 text-base mr-8 effact">Blog</li></Link>,
         <Link to='/Contact'><li className="text-slate-300 text-base mr-8 effact">Contact</li></Link>,
@@ -21,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <div className='bg-slate-700 shadow-md'>
-        <div className="navbar lg:container lg:mx-auto">
+        <div className="navbar lg:container lg:mx-auto  lg:px-24">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -1,11 +1,12 @@
 import './hero.css';
 import { TypeAnimation } from 'react-type-animation';
 import { scroll } from "motion"
+import { About } from '../../About/About';
 export const Hero = () => {
   return (
     <div className=''>
 
-<div className="hero  min-h-screen text-white">
+<div className="hero  min-h-screen text-white container  lg:container lg:mx-auto lg:py-20 lg:px-24">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img
       src="Hero.png"
@@ -47,6 +48,7 @@ export const Hero = () => {
     </div>
   </div>
 </div>
+
    
     </div>
   )

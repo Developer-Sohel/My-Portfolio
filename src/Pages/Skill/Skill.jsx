@@ -14,22 +14,9 @@ import { FaFigma } from "react-icons/fa";
 import { CgDebug } from "react-icons/cg";
 
 
-
-
-
-
-
-
-
-
-
-
-
-import React from 'react'
-
 export const Skill = () => {
   return (
-    <div>
+    <div className="container lg:mx-auto">
         <div className='grid grid-cols-1 lg:grid-cols-2 py-20 px-2 gap-5'>
 
         {/* Education-section */}
